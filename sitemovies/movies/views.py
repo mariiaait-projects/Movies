@@ -11,13 +11,13 @@ movies = [
          "title": "Movie 2",
          "duration": "90 min",
          "year": 2021,
-         "relevance": False
+         "relevance": True
      },
      {
          "title": "Movie 3",
          "duration": "150 min",
          "year": 2024,
-         "relevance": True
+         "relevance": False
      }
 ]
 
