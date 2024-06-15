@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Movies</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td{
-            border: 1px solid #ccc;
-            text-align: left;
-            padding: 8px;
-        }
-        th{
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
     <h2>List of movies</h2>
     <table>
         <thead>
@@ -40,5 +21,4 @@
             {% endfor %}
         </tbody>
     </table>
-</body>
-</html>
+{% endblock %}

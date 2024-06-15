@@ -21,6 +21,6 @@ movies = [
      }
 ]
 
+data = {"movies": movies, "title": "Cinema"}
 def get_movies(request):
-    data = {"movies": movies}
     return render(request, 'movies/movies.html', context=data)
